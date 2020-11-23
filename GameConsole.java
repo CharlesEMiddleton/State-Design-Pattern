@@ -15,6 +15,7 @@ public GameConsole() {
 	NintendoState = new NintendoState(this);
 	xBoxState = new XBoxState(this);
 	state = HomeState;
+	System.out.println("Starting up the Game Console");
 }
 /**
  * calls the current state's press home button
