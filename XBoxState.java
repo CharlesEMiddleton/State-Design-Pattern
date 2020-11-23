@@ -51,9 +51,8 @@ public XBoxState(GameConsole gameConsole) {
 	 */
 	public void pressGameButton() {
 		System.out.println("you have the following games: ");
-		for(String game: listOfGames) {
 			System.out.println(listOfGames);
-		}
+		
 
 	}
 

@@ -1,5 +1,5 @@
 
-public class HomeState {
+public class HomeState implements State {
 	
 	private GameConsole gameConsole;
 	public HomeState(GameConsole gameConsole) {

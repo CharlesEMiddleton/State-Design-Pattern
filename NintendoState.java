@@ -50,12 +50,12 @@ static {
 		
 	}
 	/**
-	 * dispays game button with list of games 
+	 * displays game button with list of games 
 	 */
 	public void pressGameButton() {
 		System.out.println("You have the following games");
-		for (String game: listOfGames) {
 			System.out.println(listOfGames);
-		}
+		
+		
 	}
 }
